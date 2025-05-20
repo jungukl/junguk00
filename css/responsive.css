@@ -164,7 +164,9 @@
       margin-top: 0;
       height: 30%;
     }
-  
+    .banner{
+      display: none;
+    }
     .container{
       margin-top: 30%;
     }
