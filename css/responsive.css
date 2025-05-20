@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1440px) {
+    html {
+      font-size: 12px;
+    }
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem;
+      margin-right: 0;
+    }
+    .myname {
+      font-size: 3.5rem;
+      letter-spacing: -0.2rem;
+      padding-left: 1rem;
+    }
+  
+    .main-content {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    .profile-label {
+      position: absolute;
+      right: 20%;
+      top: -30%;
+    }
+    .firstpage{
+      position: relative;
+      margin-bottom: 15rem;
+    }
+    .text-content, .text-content2 {
+      font-size: 30px;
+      width: 100%;
+      padding-left: 0rem;
+      letter-spacing: -0.1rem;
+    }
+  
+    .container{
+      margin-top: 30%;
+    }
+  
+    .blank-title{
+      flex: .8;
+    }
+    .image-content img{
+      width: 80%;
+      position: relative;
+      right: -50%;
+    }
+  
+    .text-box, .video-box {
+      padding: 1rem;
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    .text-box{
+      margin: 0;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  
+    .section {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .section-title{
+      padding-left: 0;
+    }
+  
+    .paper-box{
+      margin: 0;
+    }
+  
+    .section .inner {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  
+    .title3{
+      margin-top: 2rem;
+    }
+  
+    .contact {
+      position: absolute;
+      top: 100%;
+      left: 0%;
+      padding: 2rem;
+      font-size: 1.2rem;
+    }
+    .container3{
+      padding: 1rem;
+      font-size: .7rem;
+    }
+    .profile-img {
+      width: 20%;
+      margin: 1rem 1rem;
+      position: absolute;
+      top: 50%;right: 10%;left: auto;
+    }
+  
+    .leftnright {
+      flex-direction: column;
+      padding: 0;
+      width: 100%;
+      margin-top: 3rem;
+    }
+    .left{
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .leftleft{
+      flex: 1;
+      padding-right: 3rem;
+    }
+    .leftright{
+      flex: 1;
+    }
+  
+    .right{
+      margin-left: 0;
+      padding: 1rem;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .signature {
+      text-align: center;
+      margin-top: 2rem;
+    }
+  } 
+  
+
+  @media screen and (max-width: 876px) {
+    html {
+      font-size: 8px;
+    }
+    .image-content img{
+        width: 0;
+    }
+    .section{
+        height: auto;
+    }
+    .section.red{
+      margin-top: 0;
+    }
+    .right{
+        height: auto;
+        width: 50%;
+    }
+    .profile-label {
+      top: -20%;
+    }
+    .text-content, .text-content2 {
+      font-size: 16px;
+    }
+    h1{
+      margin-top: 0;
+      height: 30%;
+    }
+  
+    .container{
+      margin-top: 30%;
+    }
+    .text-content{
+      padding-right: 0;
+    }
+}
+
+  @media screen and (max-width: 480px) {
+    html {
+      font-size: 6px;
+    }
+  
+    h1, .koreantitle, .title3, .subtitle {
+      font-size: 2.5rem;
+      padding-left: 1rem;
+    }
+    .text-content, .text-content2 {
+      font-size: 12px;
+    }
+    .section-title {
+      padding-left: 2rem;
+      font-size: 1.5rem;
+    }
+    .paper-box {
+      margin: 2rem auto;
+      width: 12rem;
+      height: 20rem;
+    }
+    .Junguk .swiper-slide img{
+      width: 130px;
+    }
+  
+    .container{
+      margin-top: 40%;
+    }
+    .footer {
+      font-size: 0.75rem;
+      padding: 1rem;
+    }
+  
+    .color-bars {
+      top: 0.5rem;
+      right: 1rem;
+    }
+  
+    .color-bars div {
+      width: 2rem;
+      height: 2rem;
+    }
+    .right{
+      width: 90%;
+      padding: 0;
+    }
+    .profile-img {
+        top: 60%;
+        right: 5%;
+        left: auto;
+    }
+  }
+  
