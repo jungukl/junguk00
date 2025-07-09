@@ -13,7 +13,9 @@
 html {
   font-size: 14px;
 }
-
+a{
+  text-decoration: none;
+}
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -141,13 +143,14 @@ main {
   justify-content: center;
   font-size: 1.125rem;
   transform: rotate(-15deg);
+  display: none;
 }
 
 .contact {
   position: absolute;
   bottom: 10%;
   left: 0%;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #444;
   line-height: 1.4;
   z-index: 10;
@@ -221,7 +224,7 @@ h1 {
 }
 
 .video-box {
-  background-color: #ddd;
+  /* background-color: #ddd; */
   width: 42.4rem;
   height: 23.8rem;
   display: flex;
@@ -232,6 +235,10 @@ h1 {
   margin-left: 10rem;
   margin-top: 5rem;
   flex: 1;
+}
+.video-box img{
+  width: 42.4rem;
+  height: 23.8rem;
 }
 
 .text-box {
@@ -278,10 +285,23 @@ h1 {
 .section.blue .inner:hover{
   transform: scale(1.05);
 }
-.section.green {
+.section.blue2 {
   background-color: #34CA6A;
+  overflow: hidden;
+}
+.section.blue2 .inner {
+  /* width: 100%; */
+  transition: all .5s;
+  display: flex;
+}
+.section.blue2 .inner:hover{
+  transform: scale(1.05);
+}
+.section.green {
+  background-color: #58bd0f;
   grid-template-columns: 1fr 2fr;
   overflow: hidden;
+  padding-bottom: 0%;
 }
 .section.green .inner {
   width: 100%;
